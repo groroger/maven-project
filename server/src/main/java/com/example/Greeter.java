@@ -21,6 +21,7 @@ public class Greeter {
    * @return someone string
    */
   public final String greet(final String someone) {
+    System.out.println("Hello Groroger, tu kiffes Jenkins?");
     return String.format("Hello World, %s!", someone);
   }
 }
